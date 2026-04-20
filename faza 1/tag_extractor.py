@@ -7,7 +7,7 @@ import pandas as pd
 def extract_unique_tags():
     # 1. Wczytanie pliku CSV (separator to średnik)
     df = pd.read_csv("2. Dataset oczyszczony.csv", sep=";")
-    # df = pd.read_csv("4. Dataset gotowy.csv", sep=";")
+    # df = pd.read_excel("faza 4/4. Dataset gotowy.xlsx")
 
     # 2. Definicja funkcji obrabiającej specyficzny string z excela
     def parse_tags(tag_str):

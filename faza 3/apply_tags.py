@@ -6,7 +6,7 @@ import os
 def main():
     # Ścieżki przestrzeni roboczej
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    mapping_file = os.path.join(base_dir, "tagi_finalnie_zmergeowane.json")
+    mapping_file = os.path.join(base_dir, "tagi_globalnie_zmergeowane.json")
     input_csv = os.path.join(base_dir, "2. Dataset oczyszczony.csv")
     output_csv = os.path.join(base_dir, "faza 3", "3. Dataset zunifikowany.csv")
 
@@ -20,7 +20,8 @@ def main():
                 for cat_name, mapped_dict in category_container.items():
                     for unified_tag, original_tags_list in mapped_dict.items():
                         for orig_tag in original_tags_list:
-                            tag_mapping[orig_tag] = unified_tag
+                            # Mapujemy ZAWSZE do wersji w lowercase i strip, żeby zniwelować różnice w plikach CSV
+                            tag_mapping[orig_tag.lower().strip()] = unified_tag
     except FileNotFoundError:
         print(f"Nie znaleziono pliku mapowań: {mapping_file}")
         return
@@ -56,8 +57,9 @@ def main():
             # Ujednolicenie i deduplikacja (używamy set, by w wierszu ten sam zunifikowany tag nie wystąpił dwa razy)
             unified_tags = set()
             for tag in original_tags:
-                # Zamieniamy na ujednoliconą wersję (jeśli nie istnieje w słowniku, zostawiamy oryginał)
-                unified_tag = tag_mapping.get(tag, tag)
+                clean_orig_tag = tag.lower().strip()
+                # Zamieniamy na ujednoliconą wersję (jeśli nie istnieje w słowniku, zostawiamy oryginał clean)
+                unified_tag = tag_mapping.get(clean_orig_tag, tag)
                 unified_tags.add(unified_tag)
 
             # Konwersja z powrotem do zrzuconego JSON i zapis do pliku wynikowego
@@ -70,5 +72,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
     main()

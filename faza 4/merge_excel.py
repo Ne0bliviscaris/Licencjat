@@ -5,7 +5,7 @@ import pandas as pd
 
 def main():
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    xlsx_path = os.path.join(base_dir, "faza 4", "2. Dataset oczyszczony.xlsx")
+    xlsx_path = os.path.join(base_dir, "faza 1", "2. Dataset oczyszczony.xlsx")
     csv_path = os.path.join(base_dir, "faza 3", "3. Dataset zunifikowany.csv")
     output_path = os.path.join(base_dir, "faza 4", "4. Dataset gotowy.xlsx")
 
