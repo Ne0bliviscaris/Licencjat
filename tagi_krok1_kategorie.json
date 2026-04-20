@@ -1,0 +1,402 @@
+[
+    {
+        "original_tag": "sql",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "python",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "java",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "jira",
+        "category": "Metodyki, Zarządzanie i Organizacja pracy"
+    },
+    {
+        "original_tag": "git",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "docker",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "javascript",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "kubernetes",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "aws",
+        "category": "Chmura obliczeniowa (Cloud)"
+    },
+    {
+        "original_tag": "typescript",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "confluence",
+        "category": "Metodyki, Zarządzanie i Organizacja pracy"
+    },
+    {
+        "original_tag": "postgresql",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "azure",
+        "category": "Chmura obliczeniowa (Cloud)"
+    },
+    {
+        "original_tag": "c#",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "linux",
+        "category": "Systemy operacyjne platformy serwerowe"
+    },
+    {
+        "original_tag": "cloud",
+        "category": "Chmura obliczeniowa (Cloud)"
+    },
+    {
+        "original_tag": ".net",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "jenkins",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "css",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "uml",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "oracle",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "angular",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "bpmn",
+        "category": "Metodyki, Zarządzanie i Organizacja pracy"
+    },
+    {
+        "original_tag": "html",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "terraform",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "microsoft azure",
+        "category": "Chmura obliczeniowa (Cloud)"
+    },
+    {
+        "original_tag": "sap",
+        "category": "Systemy klasy Enterprise (ERP / CRM / ITSM)"
+    },
+    {
+        "original_tag": "c++",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "spring boot",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "agile",
+        "category": "Metodyki, Zarządzanie i Organizacja pracy"
+    },
+    {
+        "original_tag": "bash",
+        "category": "Systemy operacyjne platformy serwerowe"
+    },
+    {
+        "original_tag": "node.js",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "devops",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "mysql",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "azure devops",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "security",
+        "category": "Bezpieczeństwo (Cybersecurity)"
+    },
+    {
+        "original_tag": "google cloud platform",
+        "category": "Chmura obliczeniowa (Cloud)"
+    },
+    {
+        "original_tag": "react.js",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "react",
+        "category": "Technologie i frameworki Web/Frontend"
+    },
+    {
+        "original_tag": "powershell",
+        "category": "Systemy operacyjne platformy serwerowe"
+    },
+    {
+        "original_tag": "kafka",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "rest api",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "windows server",
+        "category": "Systemy operacyjne platformy serwerowe"
+    },
+    {
+        "original_tag": "enterprise architect",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "php",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "gitlab",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "postman",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "ansible",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "c",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "microsoft sql server",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "active directory",
+        "category": "Bezpieczeństwo (Cybersecurity)"
+    },
+    {
+        "original_tag": "hibernate",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "kotlin",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "spring",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "scrum",
+        "category": "Metodyki, Zarządzanie i Organizacja pracy"
+    },
+    {
+        "original_tag": "rest",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "windows",
+        "category": "Systemy operacyjne platformy serwerowe"
+    },
+    {
+        "original_tag": "ci/cd",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "android",
+        "category": "Tworzenie urządzeń mobilnych (Mobile)"
+    },
+    {
+        "original_tag": "testing",
+        "category": "Testowanie i Quality Assurance (QA)"
+    },
+    {
+        "original_tag": "integration",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "gcp",
+        "category": "Chmura obliczeniowa (Cloud)"
+    },
+    {
+        "original_tag": "selenium",
+        "category": "Testowanie i Quality Assurance (QA)"
+    },
+    {
+        "original_tag": "maven",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "mongodb",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "figma",
+        "category": "Design i UX/UI"
+    },
+    {
+        "original_tag": "spring framework",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "pl/sql",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "ios",
+        "category": "Tworzenie urządzeń mobilnych (Mobile)"
+    },
+    {
+        "original_tag": "grafana",
+        "category": "Narzędzia analityczne i Business Intelligence (BI)"
+    },
+    {
+        "original_tag": "rabbitmq",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "microsoft excel",
+        "category": "Narzędzia analityczne i Business Intelligence (BI)"
+    },
+    {
+        "original_tag": "databricks",
+        "category": "Sztuczna Inteligencja, Machine Learning i Data Science"
+    },
+    {
+        "original_tag": "microsoft power bi",
+        "category": "Narzędzia analityczne i Business Intelligence (BI)"
+    },
+    {
+        "original_tag": "etl",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "github",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "vmware",
+        "category": "Systemy operacyjne platformy serwerowe"
+    },
+    {
+        "original_tag": "salesforce",
+        "category": "Systemy klasy Enterprise (ERP / CRM / ITSM)"
+    },
+    {
+        "original_tag": "itil",
+        "category": "Metodyki, Zarządzanie i Organizacja pracy"
+    },
+    {
+        "original_tag": "t-sql",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": ".net core",
+        "category": "Technologie i frameworki Backend"
+    },
+    {
+        "original_tag": "scala",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "r",
+        "category": "Sztuczna Inteligencja, Machine Learning i Data Science"
+    },
+    {
+        "original_tag": "junit",
+        "category": "Testowanie i Quality Assurance (QA)"
+    },
+    {
+        "original_tag": "power bi",
+        "category": "Narzędzia analityczne i Business Intelligence (BI)"
+    },
+    {
+        "original_tag": "excel",
+        "category": "Narzędzia analityczne i Business Intelligence (BI)"
+    },
+    {
+        "original_tag": "go",
+        "category": "Języki programowania"
+    },
+    {
+        "original_tag": "servicenow",
+        "category": "Systemy klasy Enterprise (ERP / CRM / ITSM)"
+    },
+    {
+        "original_tag": "prometheus",
+        "category": "DevOps, CI/CD i Konteneryzacja"
+    },
+    {
+        "original_tag": "ui",
+        "category": "Design i UX/UI"
+    },
+    {
+        "original_tag": "sharepoint",
+        "category": "Systemy klasy Enterprise (ERP / CRM / ITSM)"
+    },
+    {
+        "original_tag": "sap hana",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "networking",
+        "category": "Sieci komputerowe i Telekomunikacja"
+    },
+    {
+        "original_tag": "ai",
+        "category": "Sztuczna Inteligencja, Machine Learning i Data Science"
+    },
+    {
+        "original_tag": "json",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "xml",
+        "category": "Architektura, API i Wzorce projektowe"
+    },
+    {
+        "original_tag": "spark",
+        "category": "Sztuczna Inteligencja, Machine Learning i Data Science"
+    },
+    {
+        "original_tag": "elasticsearch",
+        "category": "Bazy danych i Hurtownie danych"
+    },
+    {
+        "original_tag": "playwright",
+        "category": "Testowanie i Quality Assurance (QA)"
+    },
+    {
+        "original_tag": "swift",
+        "category": "Tworzenie urządzeń mobilnych (Mobile)"
+    }
+]
