@@ -29,7 +29,9 @@ def extract_unique_tags():
     tags_counted = Counter(all_tags)
 
     # Sortowane po popularności malejąco
-    unique_tags_sorted = sorted(tags_counted.keys(), key=lambda x: tags_counted[x], reverse=True)
+    unique_tags_sorted = sorted(
+        tags_counted.keys(), key=lambda x: tags_counted[x], reverse=True
+    )
 
     # 4. Zapis do pliku JSON do przetworzenia przez LLM
     output_data = {"unique_tags": unique_tags_sorted}

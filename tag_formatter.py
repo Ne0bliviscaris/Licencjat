@@ -141,7 +141,9 @@ def main():
     # ------------------
     categorized_tags = []
     # chunk_size = 100 ? # Kategorie nie wymagają kontekstu synonimów, mogą być większe paczki
-    chunk_size = 20  # Ka?tegorie nie wymagają kontekstu synonimów, mogą być większe paczki
+    chunk_size = (
+        20  # Kategorie nie wymagają kontekstu synonimów, mogą być większe paczki
+    )
 
     for i in tqdm(range(0, len(unique_tags), chunk_size), desc="Faza 1: Kategoryzacja"):
         batch = unique_tags[i : i + chunk_size]
@@ -183,7 +185,11 @@ def main():
 
         for u in unifications:
             final_results.append(
-                {"original_tag": u.original_tag, "unified_name": u.unified_name, "category": category}
+                {
+                    "original_tag": u.original_tag,
+                    "unified_name": u.unified_name,
+                    "category": category,
+                }
             )
 
     # Zmiana końcowa
