@@ -1,4 +1,18 @@
-# 1 Wstęp
+# ANALIZA WYNAGRODZEŃ NA POLSKIM RYNKU IT
+
+## Executive Summary (Streszczenie Menedżerskie)
+
+**Przedmiot i cel badania:** Niniejsza analiza została przeprowadzona na zbiorze danych obejmującym oferty pracy z sektora technologii informacyjnych (IT). Celem badania było zidentyfikowanie kluczowych czynników wpływających na wysokość wynagrodzeń oferowanych na polskim rynku IT, ze szczególnym uwzględnieniem poziomu doświadczenia, formy zatrudnienia, trybu pracy oraz specyficznych kompetencji twardych.
+
+**Metodologia:** Dane zostały rygorystycznie oczyszczone ze skrajnych anomalii i ograniczone do realistycznego przedziału stawek miesięcznych: od minimalnego wynagrodzenia krajowego (4 600 PLN) do poziomu 50 000 PLN. W pracy zastosowano podejście dwuetapowe:
+1. **Analiza ogólna:** Badanie całego przekroju rynku IT z użyciem statystyki opisowej, testów ANOVA oraz podstawowych modeli regresyjnych.
+2. **Analiza zaawansowana (dedykowana):** Dekompozycja rynku i zawężenie badania do niszowych, kluczowych obszarów związanych z pracą z danymi (**Data & AI**, **Management & Analytics** oraz **QA & Testing** jako grupy porównawczej) wraz z zaawansowaną inżynierią cech technologicznych.
+
+**Główne wnioski:** Analiza dowiodła, że najważniejszym czynnikiem różnicującym płace jest poziom doświadczenia (stanowiska klasy Senior/Expert). W segmencie danych zidentyfikowano silną premię płacową za znajomość języków programowania (Python) oraz narzędzi chmurowych (AWS), podczas gdy tradycyjne narzędzia analityczne (Excel) stanowią jedynie kompetencję bazową i nie wpływają znacząco na dynamikę wzrostu pensji.
+
+---
+
+# 1. Wstęp
 Niniejsza praca dotyczy analizy eksploracyjnej datasetu utworzonego na podstawie web scrapingu ofert pracy ze stron inhire.io i theprotocol.it. Poniższa praca ma na celu objaśnienie stanu rynku ofert pracy w branży IT dla osób wchodzących na ten rynek oraz szukających nowej pracy. Zgromadzone dane obejmują informacje dotyczące m.in. poziomu wynagrodzenia, lokalizacja, wymagania technologiczne, charakter pracy oraz inne istotne cechy ofert.
 
 Zbiór danych został poddany oczyszczeniu i transformacji, usunięto w jego ramach kolumny o niepełnych danych lub występujące tylko w jednym ze źródeł. Przeliczono wszystkie stawki na polskie złotówki i dodano stawki godzinowe. Ujednolicono tagi określające wymagane od kandydatów umiejętności oraz znajomość narzędzi.
@@ -86,7 +100,7 @@ Wybór metod analitycznych oraz modeli uczenia maszynowego został podyktowany s
    * **Kompatybilność z danymi binarnymi (One-Hot Encoded):** Proces inżynierii cech polegał na ekstrakcji słów kluczowych z tekstu ogłoszeń i przekształceniu ich w zmienne zero-jedynkowe (np. *posiada tag python = 1, brak = 0*). Struktura drzewiasta Lasu Losowego naturalnie operuje na takich podziałach, podejmując decyzje w sposób analogiczny do pytań rekrutacyjnych.
    * **Odporność na wartości skrajne (Outliers):** Dane pochodzące ze skrapingu portali pracy bywają zaszumione (np. pomyłki ludzkie w widełkach płacowych). Algorytm Lasu Losowego, dzięki agregacji (uśrednianiu) prognoz z wielu niezależnych drzew decyzyjnych, cechuje się wysoką odpornością na anomalie i zapobiega zaburzeniu wyników przez pojedyncze, nietypowe oferty.
    * **Wychwytywanie interakcji i nieliniowości:** W przeciwieństwie do modeli liniowych, Las Losowy potrafi zidentyfikować tzw. *efekt synergii*. Przykładowo, algorytm dostrzega, że obecność technologii `AWS` generuje znacznie wyższy przyrost płacy u specjalisty typu `Senior` niż u `Juniora`, co odzwierciedla realną złożoność wyceny specjalistów IT.
-  
+
 Bibliografia
 Rozdział 1
 1.	Begg, D., Fischer, S., Dornbusch, R. (2014). Ekonomia: Makroekonomia. Warszawa: Polskie Wydawnictwo Ekonomiczne, s. 142.
