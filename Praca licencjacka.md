@@ -69,8 +69,7 @@ W niniejszej pracy zastosowano zbiór metod badawczych opartych na pełnym cyklu
 3. **Eksploracyjna analiza danych (EDA)**: Główna metoda statystyczna użyta w badaniu. Umożliwia identyfikację trendów i zależności w zbiorze. W pracy posłużono się metodami statystyki opisowej (takimi jak wyznaczanie średniej, mediany i percentyli stawek wynagrodzeń). Dokonano grupowania (agregacji) danych względem zadanych wymiarów: doświadczenia (seniority), lokalizacji, formy zatrudnienia i wymaganych technologii.
 4. **Wizualizacja danych**: Statystyki, odkryte struktury i wzorce zostały zaprezentowane za pomocą form graficznych (wykresy rozkładów, słupkowe, pudełkowe itp.). Metoda ta pozwala dociekać i rzetelnie formować wnioski z wyabstrahowanych, zagregowanych danych opisujących kondycję i realia panujące na rynku IT.
 
-
-# 15. UZASADNIENIE DOBORU METOD STATYSTYCZNYCH I ALGORYTMÓW
+### 4.1. Uzasadnienie doboru metod statystycznych i algorytmów
 Wybór metod analitycznych oraz modeli uczenia maszynowego został podyktowany strukturą zgromadzonego zbioru danych oraz specyfiką celów badawczych pracy:
 
 1. **Uzasadnienie wyboru testu ANOVA (Analiza Wariancji):**
